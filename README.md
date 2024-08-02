@@ -62,8 +62,8 @@ ConVove is a real-time communication platform that allows users to connect with 
    Create a `.env` file in the `server` directory and configure the following variables:
 
    ```env
-   MONGO_URI=your_mongo_db_connection_string
-   JWT_SECRET=your_jwt_secret
+   MONGO_URI=mongodb://localhost:27017/convove
+   JWT_SECRET=***********
    ```
 
 4. **Run the application:**
